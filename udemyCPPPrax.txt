@@ -1,0 +1,3 @@
+/*this is my document where I write my "follow along code," kind of like coding wordvomit, for my Udemy C++ course */
+
+
