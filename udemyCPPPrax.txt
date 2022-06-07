@@ -1,3 +1,72 @@
 /*this is my document where I write my "follow along code," kind of like coding wordvomit, for my Udemy C++ course */
 
+#include <iostream>
 
+int main()
+{
+int favorite_number;
+
+std::cout << "Enter your favorite number between 1 and 100:" << std::endl;
+
+std::cin >> favorite_number;
+
+std:cout << "Amazing!! That's my favorite number too!" << std::endl;
+
+return 0;
+}
+
+arrays
+
+array_name [element_index]
+test_scores[0];
+cin >> test_scores[0];
+cin >> test_scores[5];
+
+char vowels[] {'a','e','i','o','u'};
+
+/*when leaving the brackets empty in an intialized array, we are telling the compiler to figure out how big the array is*/
+
+cout << "\nThe first vowel is: " << vowels[0] << endl;
+cout << "The last vowel is: " << vowels[4] << endl;
+
+cin >> vowels[5]; //might erase other memory, might cause system crash when running the program; program crashes while testing are a good thing because we can learn how to fix it.
+
+double high_temps [] {90.1, 89.8, 77.5, 81.6};
+cout << "\nThe first high temperature is: " << high_temps[0] << endl;
+
+high_temps[0] = 100.7; 
+cout << "The first high temperature is now: " << high_temps[0] << endl;
+
+int test_scores [5]; /*error: if we do not add {} curly braces then it won't initialize the array to 0, and instead, we will have a bunch of randomly gathered data as the initial values for our array.*/
+
+//instead:
+
+// int test_scores [5] {};
+/*you can hard-code it as {0} or even as {100}, but the 100 will only go to first element in array; {100, 90} would put 100 in index 0 and 90 in index 1.*/
+
+int test_scores [5] {100, 90, 80, 70, 60};
+
+cout << "\nFirst score at index 0: " << test_scores[0] << endl;
+cout << "Second score at index 1: " << test_scores[1] << endl;
+cout << "Third score at index 2: " << test_scores[2] << endl;
+cout << "Fourth score at index 3: " << test_scores[3] << endl;
+cout << "Fifth score at index 4: " << test_scores[4] << endl;
+
+cout << "\nEnter 5 test scores: ";
+cin >> test_scores[0];
+cin >> test_scores[1];
+cin >> test_scores[2];
+cin >> test_scores[3];
+cin >> test_scores[4];
+
+cout << "\nNotice what the value of the array name is : " << test_scores << endl; 
+
+//name of the array is the location of the array
+
+cout << endl;
+return 0;
+
+int arr[10] {0};
+arr[0] = 100;
+arr[9] = 1000;
+//declaration includes total but doesn't start at 0, hence it is [10] and not [9];
