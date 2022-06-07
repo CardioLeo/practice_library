@@ -3,6 +3,10 @@
 github repos created /
 github repos cloned /
 
+spent lots of time trying to figure out why git asks for a password when it has ssh ... /
+[found this command:: git config url."ssh://git@github.com/".insteadOf https://github.com/ which was a godsend, though I wish I didn't have to hunt it down. this allowed me to actually run git push origin main;]
+
+
 sololearn practice code typed up
 udemy CPP code typed up
 udemy bash code typed up
