@@ -1,0 +1,8 @@
+"/" = check, started or completed
+
+github repos created /
+github repos cloned /
+
+sololearn practice code typed up
+udemy CPP code typed up
+udemy bash code typed up
