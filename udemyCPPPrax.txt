@@ -70,3 +70,73 @@ int arr[10] {0};
 arr[0] = 100;
 arr[9] = 1000;
 //declaration includes total but doesn't start at 0, hence it is [10] and not [9];
+
+//and now onto vectors
+
+vector_name [element_index];
+//or access via
+vector_name.at(element_index);
+test_scores.at(1);
+
+vector <int> test_scores {100,95,99,87,88};
+
+vector <int> test_scores {100,95,99}; //size is 3
+test_scores.push_back(80);
+test_scores.push_back(90); // 100, 95, 99, 80, 90,
+
+//arrays never do bounds checking; but many vector methods do check bounds;
+
+//to use vectors, you have to make sure to include them up at the beginning by iostream;
+
+#include <iostream>
+#include <vector>
+
+//like so ^^
+
+//vector <char> vowels; //empty
+//vector <char> vowels (5); // 5 initalized to zero;
+vector <char> vowels {'a','e','i','o','u'};
+
+cout << vowels[0] << endl;
+cout << vowels[4] << endl;
+
+cout << "\nEnter a test score to add to the vector: ";
+int score_to_add {0};
+cin >> score_to_add;
+
+test_scores.push_back(score_to_add);
+
+cout << "\nEnter one more test score to add to the vector: ";
+cin >> score_to_add;
+
+test_scores.push_back(score_to_add);
+
+cout << "\nTest scores are now: " << endl;
+
+cout << test_scores.at(0) << endl;
+//etc
+cout << "\nThere are now " << test_scores.size() << " scores in the vector." << endl;
+
+//cout << "This should cause an exception!!" << test_scores.at(10); //an out of range exception
+
+//using .at(10) might throw an error message whereas just trying to access test_scores{10} won't?
+
+//two dimensional vectors; vectors of vectors;
+
+vector <vector<int>> movie_ratings
+{
+	{1,2,3,4}
+	{1,2,4,4}
+	{1,3,4,5}
+};
+
+cout << "\nHere are the movie ratings for the reviewer #1 using array syntax: " << endl;
+cout << movie_ratings[0][0] << endl;
+//etc
+
+cout << "\nHere are the movie ratings for the reviewer #2 using vector syntax: " << endl;
+cout << movie_ratings.at(1).at(0) << endl;
+//etc, if i understand it.
+
+movie_ratings
+
