@@ -11,6 +11,8 @@
 
 //
 
+/*
+
 #include <math.h>
 #include <cstdio>
 
@@ -34,6 +36,11 @@ int main()
 	printf ("x^y is: %6.3f\n", pow((double)x, (double)y));
 
 }
+
+*/
+
+// now this main doc comments out the power.c program
+// which I won't want to compile from here in the future
 
 // this is going to be way too much ...
 //
