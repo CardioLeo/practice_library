@@ -120,7 +120,8 @@ int main()
 //
 // reason being that the slash is pointed completely the wrong way!
 // It's the opposite slash...
-
+//
+// Now the program appears to work in full! cool!
 
 /* end first program */
 
