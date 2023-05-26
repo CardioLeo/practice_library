@@ -1,0 +1,11 @@
+# Author: William Z Chadwick
+# Date Created: 05/07/2023
+# Date Modified: 05/07/2023
+# Description: A place for notes: ch3 Programming Erlang, Joe Armstrong
+#
+
+---
+
+Chapter 3, mostly
+
+higher order functions, called funs: "Control Abstractions"
