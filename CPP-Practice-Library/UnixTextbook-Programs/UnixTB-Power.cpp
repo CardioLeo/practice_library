@@ -11,10 +11,6 @@
 
 //
 
-/*
-
-//  commenting out first program
-
 #include <math.h>
 #include <cstdio>
 
@@ -39,7 +35,6 @@ int main()
 
 }
 
-*/ // end of commenting out first program
 
 // this is going to be way too much ...
 //

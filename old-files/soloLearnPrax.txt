@@ -1,0 +1,66 @@
+#all code here is not to be run, nor is it in any kind of polished state; it is mostly here for practice, repetition, muscle memory, building familiarity, and hopefully some actual practice getting used to thinking with the syntax and the logic.
+
+#this is essentially like my personal coding wordvomit journal, but it shows I've done "something" right?
+
+Section 1:
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+cout << "Hello, World!";
+cout << " This " << "is" << " awesome!";
+return 0;
+}
+//prints "hello world" and "this is awesome"
+
+/*this is a multi-line comment */
+
+int a;
+int b = 42;
+
+a = 23;
+b = 6;
+
+cout << "Please enter a number \n";
+cin >> a;
+
+cout << "Enter another number \n";
+cin >> b;
+
+cout << b + a;
+cout << "that is the sum of a and b, the first and second numbers you entered"
+int sum = a + b;
+cout << sum << " << << see? that is the sum!
+
+auto l = 5; //int
+auto g = 4.32 //float
+auto h = "stressfreelife" //string
+
+valid operators: [+-/*%]
+parentheses are completed first; multiplication is completed before addition.
+
++= and -= are increment and decrement operators, which allow you to change the value of a variable in less keystrokes than you might otherwise use. You can use the same shorthand for the other operators: *= /= %=
+
+similarly: you can use x++ [x = x + 1]
+
+relatedly, again, there are postfix and prefix ways of doing this; that is: ++x and x++
+"prefix increments the value and then proceeds with the expression."
+"postfix evaluates the expression and then performs the incrementing."
+
+pretty cool.
+
+same with decrements;
+
+end section 1
+
+Section 2:
