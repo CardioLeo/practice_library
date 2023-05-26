@@ -11,10 +11,6 @@
 
 //
 
-/*
-
-//  commenting out first program
-
 #include <math.h>
 #include <cstdio>
 
@@ -38,8 +34,6 @@ int main()
 	printf ("x^y is: %6.3f\n", pow((double)x, (double)y));
 
 }
-
-*/ // end of commenting out first program
 
 // this is going to be way too much ...
 //
